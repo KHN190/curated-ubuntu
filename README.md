@@ -8,12 +8,20 @@ Curated list of softwares I'm using to make Ubuntu more human friendly.
 * Font, [Fira Code](https://github.com/tonsky/FiraCode)
 * Code, [Sublime Text](https://www.sublimetext.com/)
 
+## Input
+
+* Chinese, [Rime](https://github.com/rime/home)
+
 ## Tools
 
 * Faster apt, [apt-fast](https://github.com/ilikenwf/apt-fast)
 * Faster download, [aria2](https://aria2.github.io/)
 * Browser, [chromium](https://www.chromium.org/)
 * Shadowsocks, [libev](https://github.com/shadowsocks/shadowsocks-libev) and v2ray [plugin](https://github.com/shadowsocks/v2ray-plugin)
+
+## Indicator
+
+* Network, [netspeed](https://github.com/mgedmin/indicator-netspeed)
 * Awake screen, [caffeine](https://launchpad.net/caffeine/)
 
 ## Theme
