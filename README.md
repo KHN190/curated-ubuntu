@@ -1,13 +1,6 @@
 # hfus
 Curated list of softwares I'm using to make Ubuntu more human friendly.
 
-## Code
-
-* Terminal [Tilda](https://github.com/lanoxx/tilda)
-* Shell, [Fish](https://github.com/fish-shell/fish-shell)
-* Font, [Fira Code](https://github.com/tonsky/FiraCode)
-* Code, [Sublime Text](https://www.sublimetext.com/)
-
 ## Input
 
 * Chinese, [Rime](https://github.com/rime/home)
@@ -17,7 +10,26 @@ Curated list of softwares I'm using to make Ubuntu more human friendly.
 * Faster apt, [apt-fast](https://github.com/ilikenwf/apt-fast)
 * Faster download, [aria2](https://aria2.github.io/)
 * Browser, [chromium](https://www.chromium.org/)
-* Shadowsocks, [libev](https://github.com/shadowsocks/shadowsocks-libev) and v2ray [plugin](https://github.com/shadowsocks/v2ray-plugin)
+* Shadowsocks, [libev](https://github.com/shadowsocks/shadowsocks-libev), v2ray [plugin](https://github.com/shadowsocks/v2ray-plugin), and polipo
+
+```bash
+sudo add-apt-repository ppa:apt-fast/stable -y
+sudo apt-get update
+sudo apt-get -y install apt-fast
+
+sudo apt-fast install chromium-browser shadowsocks-libev polipo -y
+```
+
+## Code
+
+* Terminal [Tilda](https://github.com/lanoxx/tilda)
+* Shell, [Fish](https://github.com/fish-shell/fish-shell)
+* Font, [Fira Code](https://github.com/tonsky/FiraCode)
+* Code, [Sublime Text](https://www.sublimetext.com/)
+
+```bash
+sudo apt-fast install tilda fish -y
+```
 
 ## Indicator
 
@@ -29,6 +41,10 @@ Curated list of softwares I'm using to make Ubuntu more human friendly.
 * CompizConfig
 * Gnome Tweaks
 * [Numix](https://github.com/numixproject/numix-icon-theme-square)
+
+```bash
+sudo apt-fast install compizconfig-settings-manager numix-gtk-theme -y
+```
 
 ## Leisure
 
