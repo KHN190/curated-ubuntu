@@ -1,9 +1,4 @@
-# hfus
 Curated list of softwares I'm using to make Ubuntu more human friendly.
-
-## Input
-
-* Chinese, [Rime](https://github.com/rime/home)
 
 ## Tools
 
@@ -28,7 +23,18 @@ sudo apt-fast install chromium-browser shadowsocks-libev polipo -y
 * Code, [Sublime Text](https://www.sublimetext.com/)
 
 ```bash
-sudo apt-fast install tilda fish -y
+sudo apt-fast install tilda fish fira-code -y
+```
+
+## Input
+
+* Chinese, [Rime](https://github.com/rime/home)
+
+```bash
+sudo apt-fast install ibus-rime -y
+
+ibus restart
+ibus engine rime
 ```
 
 ## Indicator
@@ -43,7 +49,7 @@ sudo apt-fast install tilda fish -y
 * [Numix](https://github.com/numixproject/numix-icon-theme-square)
 
 ```bash
-sudo apt-fast install compizconfig-settings-manager numix-gtk-theme -y
+sudo apt-fast install compizconfig-settings-manager numix-gtk-theme gnome-tweaks -y
 ```
 
 ## Leisure
